@@ -4,7 +4,7 @@ export LC_ALL=en_US.UTF-8
 # 文件下载存储路径
 SOCKS5_PATH="/opt/nps-socks5"
 # GitHub仓库信息
-REPO_OWNER="wyx176"
+REPO_OWNER="jackiegk"
 REPO_NAME="nps-socks5"
 
 # 获取操作系统类型和架构
@@ -56,7 +56,7 @@ function exception_log() {
 CLIENT_FILENAME="${OS_TYPE}_${ARCH_NAME}_client.tar.gz"
 SERVER_FILENAME="${OS_TYPE}_${ARCH_NAME}_server.tar.gz"
 
-API_URL="https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/releases/latest"
+API_URL="https://github.com/wyx176/nps-socks5/releases/latest"
 
 echo  "正在获取最新版本信息..."
 # 获取最新的release信息
